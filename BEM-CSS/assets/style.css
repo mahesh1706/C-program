@@ -1,0 +1,173 @@
+/* -- * CSS --*/
+body{
+    padding: 0;
+    margin: 0;
+  
+}
+
+*{
+  font-family: 'Glory', sans-serif;  
+}
+/*--End--*/
+
+/*-- container --*/
+.container{
+ 
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;background-color:#cb202d;
+  
+    
+}
+/* -- End container --*/
+
+
+
+/*-- Page Title --*/
+.page-title{
+    margin-top: 0px;
+    margin-bottom: 2px;
+     padding-left: 410px;
+     top: 0;
+    color: whitesmoke;
+    background-color:#cb202d;
+    font-size: 60px;
+    text-shadow: 8px 2px 8px 8px rgb(5, 5, 5);
+}
+/*-- End ---*/
+
+
+/*--Food card--*/
+.card{
+   
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 750px;
+    max-height: 150px;
+
+}
+
+/*--Food-card__hover--*/
+
+.card:hover {
+    box-shadow: 2px 2px 8px 8px rgb(5, 5, 5);
+}
+
+/*--Food-card__image--*/
+
+.card__img{
+    width: 150;
+    height: 150;
+    object-fit: cover;
+    background-color: whitesmoke;
+    
+}
+ 
+/*--Food-card__content--*/
+
+.card__content{
+    flex-grow: 1;
+    background-color: whitesmoke;
+}
+
+/*--Food-card__Title--*/
+
+.card__title{
+    background-color: whitesmoke;
+    font-weight:bolder;
+}
+
+/*--Food-card__title--hover--*/
+
+.card__title:hover {
+    cursor: pointer;
+}
+
+/*--Food-card__desc--*/
+
+.card__desc{
+    background-color: whitesmoke;
+    
+    position: relative;
+    bottom: 20px;
+}
+
+/*--Food-card__desc--link--*/
+.card__desc--link{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+/*--Food-card__rating--*/
+
+.card__rating {
+    display: flex;
+    font-size: 16px;
+    column-gap: 15px;
+    color: #f3c117;
+    margin-top: 5px;
+}
+
+/*--Food-card__rating--votes--*/
+
+.card__rating--votes {
+    color: gray;
+}
+
+
+/*--Food-card__cot--rupee--*/
+
+.card__cost--rupee {
+   position:relative;
+   left: 90px;
+   bottom: 50px;    
+   border-radius: 8px;
+   font-size: 28px;
+   font-weight: bolder;
+   color:red;
+   display: inline;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--Food-card__button--add--*/
+
+.card__button--add{
+    border-radius: 10px;
+    background-color:#0c0b0b;
+    color: whitesmoke;
+    padding: 3px;
+    border:1px solid rgb(240, 5, 5)36, 103, 103 
+}
+
+/*--Food-card__button--add__hover*/
+.card__button--add:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: blue;
+}
+
+/*--End Food-card--*/
+
+
+/* image */
+
+.page-img__png--1{
+    position: relative;
+    right: 500px;
+    bottom: 0;
+}
+.page-img__png--2{
+    position: relative;
+    left: 500px;
+    bottom: 0;
+}
+
+/* End image */
